@@ -7,20 +7,25 @@
         mc:Ignorable="d"
         Title="TextBlockExample" Height="350" Width="600">
     <StackPanel >
-        <TextBlock FontSize="20" Margin="10" Foreground="DarkOrange">
+        <TextBlock FontSize="10" Margin="10" Foreground="DarkOrange">
             Linia1 <LineBreak/> Linia2 <LineBreak/> Linia3
         </TextBlock>
-        <TextBlock FontSize="20" Margin="10" Foreground="RosyBrown" TextWrapping="WrapWithOverflow">
-            Komunikat1 komunikat2 komunikat3 komunikat4 komunikat na dziś
+        <TextBlock FontSize="10" Margin="10" Foreground="RosyBrown" TextWrapping="WrapWithOverflow">
+            Komunikat1 komunikat2 komunikat3 komunikat4 komunikat na dziś  Komunikat1 komunikat2 komunikat3 komunikat4 komunikat na dziś
         </TextBlock>
-        <TextBlock TextTrimming="WordEllipsis" FontSize="20" Margin="10" Foreground="DarkOliveGreen">
-            Komunikat1 komunikat2 komunikat3 komunikat4 komunikat na dziś
+        <TextBlock TextTrimming="WordEllipsis" FontSize="10" Margin="10" Foreground="DarkOliveGreen">
+            Komunikat1 komunikat2 komunikat3 komunikat4 komunikat na dziś  Komunikat1 komunikat2 komunikat3 komunikat4 komunikat na dziś
         </TextBlock>
-        <TextBlock FontSize="20" Margin="10" Foreground="RoyalBlue">
+        <TextBlock FontSize="10" Margin="10" Foreground="RoyalBlue">
             Normalny text <Bold>Na grubo</Bold> <Italic>Pochylony </Italic><Underline>Podkreśliony </Underline>
         </TextBlock>
         <TextBlock FontSize="20" Margin="10">
                 Link to <Hyperlink RequestNavigate="Hyperlink_RequestNavigate" NavigateUri="http://alx.pl/">ALX</Hyperlink>
         </TextBlock>
+        <TextBlock FontSize="20" Margin="10">
+            AAA <Span Foreground="Green" >BBB</Span>
+            <Span FontStyle="Italic" FontWeight="ExtraBold" Foreground="MistyRose">CCC</Span>
+        </TextBlock>
+        <TextBlock FontSize="20" Margin="10" Name="textBlockFormat">XYZ</TextBlock>
     </StackPanel>
 </Window>
